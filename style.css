@@ -1,2 +1,53 @@
+/* FONTS */ 
+html, body {
+    /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
+    background-size: 100% auto;*/
+    font-family: 'Matter', sans-serif;
+    line-height: 1.75;
+}
 
-.eventive__logo-container__logo{max-height:2000px !important;}
+/* PALETTE FDS */
+/*.color-palette-black {
+    --color-palette-gray-900: #ffffff;
+    --color-palette-gray-800: #ffffff;
+    --color-palette-gray-800-transparent: rgba(0, 0, 0, 0);
+    --color-palette-gray-700: #b19994;
+    --color-palette-gray-700-transparent: #25252500;
+    --color-palette-gray-600: #43434f;
+    --color-palette-gray-500: #575757;
+    --color-palette-gray-400: #b19994;
+    --color-palette-gray-300: #000000;
+    --color-palette-gray-200: #ffffff;
+    --color-palette-gray-100: #000000;
+    --color-palette-white: #000000;
+}*/
+
+.color-palette-white {
+    --color-palette-gray-900: #eee;
+    --color-palette-gray-800: #fff;
+    --color-palette-gray-800-transparent: hsla(0,0%,100%,0);
+    --color-palette-gray-700: #e8e9ec;
+    --color-palette-gray-700-transparent: rgba(232,233,236,0);
+    --color-palette-gray-600: #969999;
+    --color-palette-gray-500: #76797d;
+    --color-palette-gray-400: #555961;
+    --color-palette-gray-300: #383838;
+    --color-palette-gray-200: #282a2c;
+    --color-palette-gray-100: #2e353f;
+    --color-palette-white: #252f3f;
+}
+
+/* HEADER COLOR */
+nav.bg-gray-800 {
+    background: #17FFDF;
+}
+
+/* LOGO SIZE/RESIZE */
+nav.bg-gray-800 .eventive__logo-container__logo {
+    width: 300px !important;
+    height: auto !important;
+    max-width: 50% !important;
+    /*max-height: none !important;*/
+    max-height: 2000px !important;
+}
+
