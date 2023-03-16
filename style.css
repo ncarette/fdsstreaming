@@ -63,9 +63,15 @@ html, body {
     --color-palette-white: #000000;
 }
 
-/* HEADER COLOR */
+/* HEADER COLORS */
 nav.bg-gray-800 {
     background: #000000;
+  nav.bg-gray-800 a {
+    color: #F092C6;
+    font-size: 1.1rem; }
+    nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
+      color: #ffffff; }
+    }
 }
 
 /* LOGO SIZE/RESIZE */
@@ -78,6 +84,6 @@ nav.bg-gray-800 .eventive__logo-container__logo {
 }
 
 /* search and back to festival button */
-a {
+nav.bg-gray-800 {
     color: #F092C6 !important;    
 }
