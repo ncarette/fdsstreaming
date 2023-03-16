@@ -6,7 +6,7 @@
   font-display: swap; }*/
 
 /* Cursor: need file in same folder */
-cursor: url(https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png) 4 12, auto;
+/*cursor: url(https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png) 4 12, auto;*/
 
 /* FONTS */ 
 html, body {
@@ -81,9 +81,4 @@ nav.bg-gray-800 .eventive__logo-container__logo {
     max-width: 50% !important;
     /*max-height: none !important;*/
     max-height: 2000px !important;
-}
-
-/* search and back to festival button */
-nav.bg-gray-800 {
-    color: #F092C6 !important;    
 }
