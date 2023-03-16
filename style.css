@@ -1,18 +1,18 @@
-/* Fonts import */
-@font-face {
+/* Fonts import: need file same as web folder */
+/* @font-face {
   font-family: "David";
   font-weight: normal;
   src: url(https://www.fdsfestival.ch/assets/css/fonts/david.otf) format("opentype");
-  font-display: swap; }
+  font-display: swap; }*/
 
-/* Cursor */
-cursor: url(https://www.fdsfestival.ch/assets/content/cursor.png) 4 12, auto;
+/* Cursor: need file in same folder */
+cursor: url(https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png) 4 12, auto;
 
 /* FONTS */ 
 html, body {
     /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
     background-size: 100% auto;*/
-    font-family: 'David', sans-serif;
+    font-family: 'Matter', sans-serif;
     line-height: 1.75;
 }
 
@@ -34,17 +34,17 @@ html, body {
 /*
 .color-palette-white {
     --color-palette-gray-900: #eee; / program over color
-    --color-palette-gray-800: #fff;
+    --color-palette-gray-800: #fff; / background
     --color-palette-gray-800-transparent: hsla(0,0%,100%,0);
-    --color-palette-gray-700: #e8e9ec; / head descr (need change) + films descr 
+    --color-palette-gray-700: #e8e9ec; / head descr + films descr 
     --color-palette-gray-700-transparent: rgba(232,233,236,0);
     --color-palette-gray-600: #969999;
     --color-palette-gray-500: #76797d;
     --color-palette-gray-400: #555961; / need help ? and details (rose plus clair) /
-    --color-palette-gray-300: #383838; / search + back to festival /
-    --color-palette-gray-200: #282a2c; / film descr text /
+    --color-palette-gray-300: #383838; / search (CHANGE:pink) + back to festival(CHANGE:pink) + page film descr so needs to be black/
+    --color-palette-gray-200: #282a2c; / film descr text + short case titles (CHANGE:pink)/
     --color-palette-gray-100: #2e353f; / head descr text /
-    --color-palette-white: #252f3f; / film titles + display titles + program text /
+    --color-palette-white: #252f3f; / film titles (white) + display titles + program text (CHANGE: white)/
 }*/
 
 /* try pink: need change :  */
@@ -57,7 +57,7 @@ html, body {
     --color-palette-gray-600: #969999;
     --color-palette-gray-500: #76797d;
     --color-palette-gray-400: #F092C6;
-    --color-palette-gray-300: #F092C6;
+    --color-palette-gray-300: #000000;
     --color-palette-gray-200: #fff;
     --color-palette-gray-100: #F092C6;
     --color-palette-white: #000000;
