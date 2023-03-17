@@ -74,10 +74,12 @@ nav.bg-gray-800 {
 
 nav.bg-gray-800 a {
     color: #F092C6 !important;
-    /*background: transparent;*/ 
+    background: transparent !important; 
 }
 nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
-      color: #ffffff !important; }
+      color: #ffffff !important;
+      background: transparent !important;
+}
 
 
 /* LOGO SIZE/RESIZE */
