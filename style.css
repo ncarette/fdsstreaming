@@ -1,18 +1,18 @@
 /* Fonts import: need file same as web folder */
-/* @font-face {
+@font-face {
   font-family: "David";
   font-weight: normal;
-  src: url(https://www.fdsfestival.ch/assets/css/fonts/david.otf) format("opentype");
-  font-display: swap; }*/
+  src: url('https://www.fdsfestival.ch/assets/css/fonts/david.otf') format('opentype');
+  font-display: swap; }
 
 /* Cursor: need file in same folder */
-/*cursor: url(https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png) 4 12, auto;*/
+cursor: url('https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png') 4 12, auto;
 
 /* FONTS */ 
 html, body {
     /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
     background-size: 100% auto;*/
-    font-family: 'Matter', sans-serif;
+    font-family: 'David', sans-serif;
     line-height: 1.75;
 }
 
@@ -75,7 +75,7 @@ nav.bg-gray-800 a {
 }
 nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
       color: #ffffff !important; }
-}
+
 
 /* LOGO SIZE/RESIZE */
 nav.bg-gray-800 .eventive__logo-container__logo {
