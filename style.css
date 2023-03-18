@@ -95,19 +95,25 @@ nav.bg-gray-800 {
             color: #000; }
         .eventive__button.bg-indigo-600:focus, .resp-sharing-button__group .resp-sharing-button--copy:focus,
         .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:focus {
-            border-color: #FFFF00; }
-    /* bouton petit */
+            border-color: #555961; }
+    /* bouton petit ? def ou*/
     .eventive__button.bg-reverse, .resp-sharing-button__group .resp-sharing-button--copy, .eventive__button.bg-indigo-400 {
         background: #000;
         color: #fff;
-        border-color: #000;
+        border-color: #fff;
         padding: 0.5rem 0.5rem; }
+
         .eventive__button.bg-reverse:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover, .eventive__button.bg-indigo-400:hover {
             background: #fff;
             color: #000; 
             border-color: #000;}
 
-/* titre ni nav ni header */
+/* titres */
+/* spacebar in search */
+/* continue login button when select */
+/* buttons when little media */
+/* delete png cursor when little media */
+/* arrows in div 3 : black
 
 
 /* titre nav et header */
