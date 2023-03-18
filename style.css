@@ -1,4 +1,4 @@
-/* Fonts import: need file same as web folder */
+/* Fonts import */
 @font-face {
   font-family: "davidregular";
   font-weight: normal;
@@ -7,19 +7,125 @@
        url('david-webfont.woff') format('woff');
   font-display: swap; }
 
-/* Cursor: need file in same folder */
+/* palette */
+.color-palette-white {
+    --color-palette-gray-900: #F092C6;
+    --color-palette-gray-800: #fff;
+    --color-palette-gray-800-transparent: hsla(0,0%,100%,0);
+    --color-palette-gray-700: #000000;
+    --color-palette-gray-700-transparent: rgba(232,233,236,0);
+    --color-palette-gray-600: #969999;
+    --color-palette-gray-500: #76797d;
+    --color-palette-gray-400: #F092C6;
+    --color-palette-gray-300: #000000;
+    --color-palette-gray-200: #fff;
+    --color-palette-gray-100: #F092C6;
+    --color-palette-white: #000000;
+}
 
-
-/* FONTS */ 
+/* general sets */ 
 html, body {
     /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
     background-size: 100% auto;*/
     font-family: 'davidregular', sans-serif;
     line-height: 1.75;
-    cursor: url('FDS_logo_Chrome.png') 4 12, auto;
+    cursor: url(cursor.png) 70 40, auto;
 }
 
-/* PALETTE FDS */
+/* header */
+nav.bg-gray-800 {
+    background: #000000;
+    color : #fff;}
+    @media (min-width: 1024px) {
+        nav.bg-gray-800 {
+            padding: 0.8rem 0.5rem; } }
+    /* links in header (but login) */
+    nav.bg-gray-800 a {
+        color: #F092C6;
+        background: transparent;
+        font-size: 1rem;}
+        nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
+              color: #ffffff;
+              background: transparent;}
+    /* header logo */
+    nav.bg-gray-800 .eventive__logo-container__logo {
+        width: auto !important;
+        height: 75px !important;
+        max-width: none !important;
+        max-height: none !important;}
+        @media (min-width: 1024px) {
+            nav.bg-gray-800 .eventive__logo-container__logo {
+                max-width: none !important; } 
+    /* login */
+    nav.bg-gray-800 button {
+        background: #000000;
+        color: #ffffff;
+        border-radius: 0;
+        margin-right: 0.5rem;
+        text-transform: uppercase;
+        font-weight: normal  !important;
+        font-style: normal;
+        line-height: 1 !important;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        border: 2px solid #fff;
+        border-radius: 0rem !important; }
+
+/* bouton standard */
+.eventive__button {
+    border: 2px solid #F092C6;
+    border-radius: 0rem !important;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    font-weight: normal  !important;
+    font-style: normal;
+    line-height: 1 !important;
+    text-transform: uppercase !important; }
+    .eventive__button:focus {
+        box-shadow: none; }
+    .eventive__button svg {
+        display: none; }
+    .eventive__button.bg-indigo-600, .resp-sharing-button__group .resp-sharing-button--copy,
+    .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button {
+        background: #000;
+        color: #F092C6; }
+        .eventive__button.bg-indigo-600:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover,
+        .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:hover {
+            background: #F092C6;
+            color: #000; }
+        .eventive__button.bg-indigo-600:focus, .resp-sharing-button__group .resp-sharing-button--copy:focus,
+        .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:focus {
+            border-color: #FFFF00; }
+    /* bouton petit */
+    .eventive__button.bg-reverse, .resp-sharing-button__group .resp-sharing-button--copy, .eventive__button.bg-indigo-400 {
+        background: #000;
+        color: #fff;
+        border-color: #000;
+        padding: 0.5rem 0.5rem; }
+        .eventive__button.bg-reverse:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover, .eventive__button.bg-indigo-400:hover {
+            background: #fff;
+            color: #000; 
+            border-color: #000;}
+
+/* titre ni nav ni header */
+
+
+/* titre nav et header */
+/* nav + header h2.text-gray-400, nav + header h3.text-white {
+  color: #F092C6 !important; }
+nav + header h2, nav + header h3 {
+  font-weight: normal  !important;
+  font-style: normal;
+  line-height: 1 !important; }
+nav + header h2 {
+  font-size: 3rem !important; }
+nav + header h3 {
+  font-size: 5rem !important; }
+  @media (min-width: 1024px) {
+    nav + header h3 {
+      font-size: 7rem !important; } }*/
+
+/* palette infos */
 /*.color-palette-black {
     --color-palette-gray-900: #ffffff;
     --color-palette-gray-800: #ffffff;
@@ -50,44 +156,3 @@ html, body {
     --color-palette-white: #252f3f; / film titles (white) + display titles + program text (CHANGE: white)/
 }*/
 
-/* try pink: need change :  */
-.color-palette-white {
-    --color-palette-gray-900: #F092C6;
-    --color-palette-gray-800: #fff;
-    --color-palette-gray-800-transparent: hsla(0,0%,100%,0);
-    --color-palette-gray-700: #000000;
-    --color-palette-gray-700-transparent: rgba(232,233,236,0);
-    --color-palette-gray-600: #969999;
-    --color-palette-gray-500: #76797d;
-    --color-palette-gray-400: #F092C6;
-    --color-palette-gray-300: #000000;
-    --color-palette-gray-200: #fff;
-    --color-palette-gray-100: #F092C6;
-    --color-palette-white: #000000;
-}
-
-/* HEADER COLORS */
-nav.bg-gray-800 {
-    background: #000000;
-    color : #fff;
-}
-
-nav.bg-gray-800 a {
-    color: #F092C6 !important;
-    background: transparent !important; 
-}
-
-nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
-      color: #ffffff !important;
-      background: transparent !important;
-}
-
-
-/* LOGO SIZE/RESIZE */
-nav.bg-gray-800 .eventive__logo-container__logo {
-    width: 200px !important;
-    height: auto !important;
-    max-width: 50% !important;
-    max-height: none !important;
-    /* max-height: 2000px !important; */
-}
