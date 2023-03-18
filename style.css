@@ -16,7 +16,7 @@ html, body {
     background-size: 100% auto;*/
     font-family: 'davidregular', sans-serif;
     line-height: 1.75;
-    cursor: url('https://static-a.eventive.org/896298a17929e3887bf483ac51d8ac89.png') 4 12, auto;
+    cursor: url('FDS_logo_Chrome.png') 4 12, auto;
 }
 
 /* PALETTE FDS */
@@ -76,6 +76,7 @@ nav.bg-gray-800 a {
     color: #F092C6 !important;
     background: transparent !important; 
 }
+
 nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
       color: #ffffff !important;
       background: transparent !important;
@@ -87,6 +88,6 @@ nav.bg-gray-800 .eventive__logo-container__logo {
     width: 200px !important;
     height: auto !important;
     max-width: 50% !important;
-    /*max-height: none !important;*/
-    max-height: 2000px !important;
+    max-height: none !important;
+    /* max-height: 2000px !important; */
 }
