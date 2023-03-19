@@ -28,9 +28,10 @@ html, body {
     /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
     background-size: 100% auto;*/
     font-family: 'davidregular', sans-serif;
-    line-height: 1.75;
-    cursor: url(cursor.png) 70 40, auto;
-}
+    line-height: 1.75;}
+    @media (min-width: 768px) {
+        html, body {
+            cursor: url(cursor.png) 70 40, auto; } }
 
 /* header */
 nav.bg-gray-800 {
@@ -55,7 +56,7 @@ nav.bg-gray-800 {
         max-height: none !important;}
         @media (min-width: 1024px) {
             nav.bg-gray-800 .eventive__logo-container__logo {
-                max-width: none !important; } 
+                max-width: none !important; } }
     /* login */
     nav.bg-gray-800 button {
         background: #000000;
@@ -70,6 +71,19 @@ nav.bg-gray-800 {
         padding: 1rem 1rem;
         border: 2px solid #fff;
         border-radius: 0rem !important; }
+        nav.bg-gray-800 button:hover {
+            background-color: #fff;
+            color: #000;
+            border-color: #fff;}
+    nav.bg-gray-800 button.text-gray-400 {
+        border: none;
+        color: #F092C6; 
+        background: transparent; }
+        nav.bg-gray-800 button.text-gray-400:hover {
+            border: none;
+            color: #ffffff;
+            background: transparent; }
+
 
 /* bouton standard */
 .eventive__button {
@@ -97,23 +111,24 @@ nav.bg-gray-800 {
         .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:focus {
             border-color: #555961; }
     /* bouton petit ? def ou*/
-    .eventive__button.bg-reverse, .resp-sharing-button__group .resp-sharing-button--copy, .eventive__button.bg-indigo-400 {
+    .eventive__button.bg-reverse, .resp-sharing-button__group .resp-sharing-button--copy, .eventive__button.bg-indigo-400, .eventive__button[type=submit] {
         background: #000;
         color: #fff;
         border-color: #fff;
         padding: 0.5rem 0.5rem; }
-
-        .eventive__button.bg-reverse:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover, .eventive__button.bg-indigo-400:hover {
+        .eventive__button.bg-reverse:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover, .eventive__button.bg-indigo-400:hover, .eventive__button[type=submit]:hover {
             background: #fff;
-            color: #000; 
-            border-color: #000;}
+            color: #000;
+            border-color: #000;
+            padding: 0.5rem 0.5rem; }
+    .eventive__button.eventive__button__disabled, .eventive__button.eventive__button__disabled:hover {
+        background: #969999;
+        color: #e8e9ec;
+        border-color: #fff; }
 
 /* titres */
 /* spacebar in search */
-/* continue login button when select */
-/* buttons when little media */
-/* delete png cursor when little media */
-/* arrows in div 3 : black
+/* div3 ?
 
 
 /* titre nav et header */
