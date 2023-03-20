@@ -126,11 +126,27 @@ nav.bg-gray-800 {
         color: #e8e9ec;
         border-color: #fff; }
 
+/* noir en bas et footer */
+div.max-w-7xl.mx-auto.py-6.px-4 {
+    background-color: #000 !important;
+    max-width: none !important;
+}
+footer {
+    background: #000;
+}
+    footer div {
+        color: #ffffff !important;
+    }
+    footer a {
+        color: #F092C6;
+    }
+
 /* titres */
-/* border-radius
-/* background black of div3 and arrows
-/* film page
+/* border-radius*/
+/* background black of div3 and arrows*/
+/* film page*/
 /* spacebar in search */
+/*favicon*/
 
 
 /* titre nav et header */
@@ -178,4 +194,3 @@ nav + header h3 {
     --color-palette-gray-100: #2e353f; / head descr text /
     --color-palette-white: #252f3f; / film titles (white) + display titles + program text (CHANGE: white)/
 }*/
-
