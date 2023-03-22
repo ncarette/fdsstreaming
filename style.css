@@ -160,11 +160,19 @@ header {
 /* header descr */
 body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
     border-radius: 0rem;
-    margin-right: -24rem !important;
-    margin-left: -24rem !important;
-}
+    margin-right: -2rem !important;
+    margin-left: -2rem !important;}
+    @media (min-width: 1275px) {
+            body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
+                margin-right: -10rem !important;
+                margin-left: -10rem !important; } }
     body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 > div {
-        font-size: 1.4rem;}
+        font-size: 1rem;
+        text-transform: uppercase;}
+        @media (min-width: 768px) {
+            body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 > div {
+                font-size: 1.6rem; 
+                text-transform: uppercase;} }
 
 /* footer png box */
 body div.max-w-7xl.mx-auto.py-6.px-4 {
@@ -187,7 +195,8 @@ footer {
 .relative.px-4.py-5 > h2.text-white {
     color: #fff !important;
     /*font-family: 'Estrella',sans-serif;*/
-    font-size: 2rem;}
+    font-size: 1.6rem;
+    text-transform: uppercase;}
 
 /* titres header et nav 
 nav + header h2.text-gray-400, nav + header h3.text-white {
