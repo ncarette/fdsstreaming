@@ -48,8 +48,8 @@ html, body {
 main > div.max-w-7xl.mx-auto.pb-12.px-4 {
     padding-left: 0rem;
     padding-right: 0rem;
-    max-width: none !important;
-}
+    max-width: none !important;}
+
 /* header */
 nav.bg-gray-800 {
     background: #000000;
@@ -228,6 +228,36 @@ h2.group {
             h2.group {
                 padding-left: 2rem !important;
                 padding-right: 2rem !important; } }
+    @media (min-width: 900px) {
+            h2.group{
+                padding-top: 1.5rem !important;
+                padding-bottom: 1.5rem !important;
+                font-size: 2rem;
+            }
+    }
+/* grande boite main */
+main > div.max-w-7xl.mx-auto.pb-12 {
+    padding-bottom: 0rem;}
+
+/* slick sliders*/
+.slick-slider {
+    margin: 0rem;}
+
+.slick-list {
+    width: 100% !important;}
+
+/*.slick-track {
+    width: 100% !important;}*/
+
+/*.slick-slide {
+    min-width: 50% !important;
+}
+    @media (min-width: 768px) {
+            .slick-slide {
+                min-width: 33.33333% !important; } }
+        @media (min-width: 900px) {
+            .slick-slide {
+                min-width: 25% !important; } }*/
 
 /* formatage des images films */
 main div.relative.bg-gray-700.rounded-md.overflow-hidden.mt-4 {
@@ -236,40 +266,31 @@ main div.relative.bg-gray-700.rounded-md.overflow-hidden.mt-4 {
 main div.slick-track img {
     border-radius: 0;}
 
-/* grande boite main */
-main > div.max-w-7xl.mx-auto.pb-12 {
-    padding-bottom: 0rem;}
-
-.slick-slider {
-    margin: 0rem;}
-
-/*.slick-slide {
-    width: 50% !important;}
-        @media (min-width: 980px) {
-                .slick-slide {
-                    width: 25% !important;} }
-            @media (min-width: 768px) {
-                    .slick-slide {
-                        width: 33.333333% !important;} }*/
-
-.slick-list {
-    width: 100% !important;}
-
-/*.slick-track {
-    width: 100% !important;}*/
-
 .slick-slide div > div.group.p-2 {
     padding: 0rem;}
 
+/* slick slide for default display
 .slick-slide a > div.h-40 {
     height: 100% !important;
-    padding-bottom: 40%}
+    padding-bottom: 40%;}*/
 
+/* poster display */
+
+.slick-slide a > div.w-40 {
+    height: 100%;
+    width: 100%;
+    background-color: #f996c4;}
+
+.slick-slide a > div.w-40:hover img {
+    filter: blur(10px);
+    mix-blend-mode: multiply;
+    overflow: visible !important;
+}
 /*images of film: how ?*/
 /* film page*/
 /* spacebar in search */
 /*favicon*/
-
+/* slide case width ? how does it fcking work.
 
 /* palette infos */
 /*.color-palette-black {
