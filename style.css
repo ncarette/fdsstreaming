@@ -243,9 +243,29 @@ main > div.max-w-7xl.mx-auto.pb-12 {
 .slick-slider {
     margin: 0rem;}
 
+/*.slick-slide {
+    width: 50% !important;}
+        @media (min-width: 980px) {
+                .slick-slide {
+                    width: 25% !important;} }
+            @media (min-width: 768px) {
+                    .slick-slide {
+                        width: 33.333333% !important;} }*/
+
+.slick-list {
+    width: 100% !important;}
+
+/*.slick-track {
+    width: 100% !important;}*/
+
 .slick-slide div > div.group.p-2 {
     padding: 0rem;}
 
+.slick-slide a > div.h-40 {
+    height: 100% !important;
+    padding-bottom: 40%}
+
+/*images of film: how ?*/
 /* film page*/
 /* spacebar in search */
 /*favicon*/
