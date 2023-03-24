@@ -202,6 +202,7 @@ footer {
         font-weight: lighter;
         color: #fff;}
 
+/* text inside film display box */
 .relative.px-4.py-5 > h2.text-white {
     color: #fff !important;
     /*font-family: 'Estrella',sans-serif;*/
@@ -220,8 +221,7 @@ footer {
 h2.group {
     text-transform: uppercase;
     padding: 1rem 1rem;
-    padding-right: 1rem;
-    margin-bottom: 0rem;
+    margin: 0rem;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;}
     @media (min-width: 768px) {
@@ -235,6 +235,11 @@ main div.relative.bg-gray-700.rounded-md.overflow-hidden.mt-4 {
     border-radius: 0 ;}
 main div.slick-track img {
     border-radius: 0;}
+
+/* grande boite main */
+main > div.max-w-7xl.mx-auto.pb-12 {
+    padding-bottom: 0rem;
+}
 
 /*h2.group {
   font-family: "David", sans-serif;
