@@ -44,6 +44,12 @@ html, body {
         html, body {
             cursor: url(cursor.png) 70 40, auto; } }
 
+/* main */
+main > div.max-w-7xl.mx-auto.pb-12.px-4 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    max-width: none !important;
+}
 /* header */
 nav.bg-gray-800 {
     background: #000000;
@@ -115,6 +121,9 @@ nav.bg-gray-800 {
     font-style: normal;
     line-height: 1 !important;
     text-transform: uppercase !important; }
+    @media (min-width: 768px) {
+            .eventive__button {
+                font-size: 1.2rem; } }
     .eventive__button:focus {
         box-shadow: none; }
     .eventive__button svg {
@@ -160,8 +169,9 @@ header {
 /* header descr */
 body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
     border-radius: 0rem;
-    margin-right: -2rem !important;
-    margin-left: -2rem !important;}
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+    margin-bottom: 0rem !important;}
     @media (min-width: 1275px) {
             body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
                 margin-right: -10rem !important;
@@ -197,6 +207,45 @@ footer {
     /*font-family: 'Estrella',sans-serif;*/
     font-size: 1.6rem;
     text-transform: uppercase;}
+    @media (min-width: 768px) {
+            .relative.px-4.py-5 > h2.text-white {
+                font-size: 2rem; } }
+/* arrows */
+.slick-slider svg{
+    color: #000;}
+    .slick-slider svg:hover{
+        color: #f996c4;}
+
+/* titles of display sections */
+h2.group {
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0rem;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;}
+    @media (min-width: 768px) {
+            h2.group {
+                padding-left: 2rem !important;
+                padding-right: 2rem !important; } }
+
+/* formatage des images films */
+main div.relative.bg-gray-700.rounded-md.overflow-hidden.mt-4 {
+    margin-top: 0rem !important;
+    border-radius: 0 ;}
+main div.slick-track img {
+    border-radius: 0;}
+
+/*h2.group {
+  font-family: "David", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 1; }
+  @media (min-width: 1024px) {
+    h2.group {
+      font-size: 2rem; } }*/
 
 /* titres header et nav 
 nav + header h2.text-gray-400, nav + header h3.text-white {
