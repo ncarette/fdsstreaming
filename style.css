@@ -50,13 +50,19 @@ main > div.max-w-7xl.mx-auto.pb-12.px-4 {
     padding-right: 0rem;
     max-width: none !important;}
 
+nav.bg-gray-800 > div.max-w-7xl {
+    max-width: none;
+    padding: 0rem 0rem;}
+
 /* header */
 nav.bg-gray-800 {
     background: #000000;
-    color : #fff;}
+    color : #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;}
     @media (min-width: 1024px) {
         nav.bg-gray-800 {
-            padding: 0.8rem 0.5rem; } }
+            padding: 0.4rem 0rem; } }
     /* links in header (but login) */
     nav.bg-gray-800 a {
         color: #f996c4;
@@ -69,13 +75,14 @@ nav.bg-gray-800 {
         nav.bg-gray-800 .items-baseline > a {
             color: #fff;
             background: transparent;
-            font-size: 1.2rem;
+            font-size: 1.8rem;
             text-transform: uppercase;}
             nav.bg-gray-800 .items-baseline > a:hover, nav.bg-gray-800 .items-baseline > a:active, nav.bg-gray-800 .items-baseline > a:focus {
                 color: #f996c4;
                 background: transparent;}
     /* header logo */
     nav.bg-gray-800 .eventive__logo-container__logo {
+        display: none;
         width: auto !important;
         height: 75px !important;
         max-width: none !important;
@@ -93,9 +100,9 @@ nav.bg-gray-800 {
         font-weight: normal  !important;
         font-style: normal;
         line-height: 1 !important;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         padding: 1rem 1rem;
-        border: 2px solid #fff;
+        border: 0px solid #fff;
         border-radius: 0rem !important; }
         nav.bg-gray-800 button:hover {
             background-color: #fff;
@@ -171,18 +178,14 @@ body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
     border-radius: 0rem;
     margin-right: 0rem !important;
     margin-left: 0rem !important;
-    margin-bottom: 0rem !important;}
-    @media (min-width: 1275px) {
-            body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
-                margin-right: -10rem !important;
-                margin-left: -10rem !important; } }
+    margin-bottom: 0rem !important;
+    border-top: 2px solid #fff;}
     body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 > div {
-        font-size: 1rem;
-        text-transform: uppercase;}
+        font-size: 0.8rem;
+        color: #fff;}
         @media (min-width: 768px) {
             body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 > div {
-                font-size: 1.6rem; 
-                text-transform: uppercase;} }
+                font-size: 1rem; } }
 
 /* footer png box */
 body div.max-w-7xl.mx-auto.py-6.px-4 {
