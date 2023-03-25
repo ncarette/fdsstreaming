@@ -67,8 +67,7 @@ nav.bg-gray-800 {
     nav.bg-gray-800 a {
         color: #f996c4;
         background: transparent;
-        font-size: 1rem;
-        }
+        font-size: 1rem;}
         nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
             color: #ffffff;
             background: transparent;}
@@ -80,6 +79,21 @@ nav.bg-gray-800 {
             nav.bg-gray-800 .items-baseline > a:hover, nav.bg-gray-800 .items-baseline > a:active, nav.bg-gray-800 .items-baseline > a:focus {
                 color: #f996c4;
                 background: transparent;}
+        /* links from sidebar*/
+        nav.bg-gray-800 a.block {
+            color: #fff;
+            background: transparent;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            line-height: 1.25;}
+            nav.bg-gray-800 a:hover, nav.bg-gray-800 a:active, nav.bg-gray-800 a:focus {
+                color: #f996c4;
+                background: transparent;}
+            @media (max-width: 640px) {
+                nav.bg-gray-800 a.block {
+                    font-size: 1.2rem; } }
     /* header logo */
     nav.bg-gray-800 .eventive__logo-container__logo {
         width: auto !important;
@@ -90,7 +104,13 @@ nav.bg-gray-800 {
             nav.bg-gray-800 .eventive__logo-container__logo {
                 max-width: none !important;
                 display: none; } }
-    /* login */
+
+/* header logo without padding left */
+    nav div.flex.items-center.justify-between.h-16.px-4 {
+        padding-left: 0px;
+        padding-right: 0px;}
+
+/* login button */
     nav.bg-gray-800 button {
         background: #000000;
         color: #ffffff;
@@ -165,13 +185,11 @@ nav.bg-gray-800 {
 /* header img */
 header {
     padding-top: 0rem !important;
-    padding-bottom: 0rem !important;
-}
+    padding-bottom: 0rem !important;}
     header div {
         padding-left: 0rem !important;
         padding-right: 0rem !important;
-        max-width: none !important;
-    }
+        max-width: none !important;}
 
 /* header descr */
 body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
@@ -190,38 +208,9 @@ body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 {
             body div.text-gray-100.text-center.bg-gray-700.p-4.rounded-lg.mb-8 > div {
                 font-size: 1.2rem; } }
 
-/* footer png box */
-body div.max-w-7xl.mx-auto.py-6.px-4 {
-    background-color: #000 !important;
-    max-width: none !important;}
-    div.max-w-7xl.mx-auto.py-6.px-4 img {
-        max-width: 77rem !important;
-        display: block !important;
-        margin-left: auto !important;
-        margin-right: auto !important;}
-/* eventive footer */
-footer {
-    background: #000;}
-    footer div {
-        color: #ffffff !important;}
-    footer a {
-        font-weight: lighter;
-        color: #fff;}
-
-/* text inside film display box */
-.relative.px-4.py-5 > h2.text-white {
-    color: #fff !important;
-    /*font-family: 'Estrella',sans-serif;*/
-    font-size: 1.6rem;
-    text-transform: uppercase;}
-    @media (min-width: 768px) {
-            .relative.px-4.py-5 > h2.text-white {
-                font-size: 2rem; } }
-/* arrows */
-.slick-slider svg{
-    color: #000;}
-    .slick-slider svg:hover{
-        color: #f996c4;}
+/* grande boite main */
+main > div.max-w-7xl.mx-auto.pb-12 {
+    padding-bottom: 0rem;}
 
 /* titles of display sections */
 h2.group {
@@ -238,12 +227,7 @@ h2.group {
             h2.group{
                 padding-top: 1.5rem !important;
                 padding-bottom: 1.5rem !important;
-                font-size: 2rem;
-            }
-    }
-/* grande boite main */
-main > div.max-w-7xl.mx-auto.pb-12 {
-    padding-bottom: 0rem;}
+                font-size: 2rem; } }
 
 /* slick sliders*/
 .slick-slider {
@@ -281,54 +265,54 @@ main div.slick-track img {
     padding-bottom: 40%;}*/
 
 /* poster display */
-
 .slick-slide a > div.w-40 {
     height: 100%;
     width: 100%;
     background-color: #f996c4;}
 
 .slick-slide a > div.w-40:hover {
-    border-radius: 0;
-}
+    border-radius: 0;}
 .slick-slide a > div.w-40:hover img {
     filter: blur(5px);
     mix-blend-mode: multiply;
-    overflow: visible !important;
-}
+    overflow: visible !important;}
 
-/*images of film: how ?*/
+/* text inside film display box */
+.relative.px-4.py-5 > h2.text-white {
+    color: #fff !important;
+    /*font-family: 'Estrella',sans-serif;*/
+    font-size: 1.6rem;
+    text-transform: uppercase;}
+    @media (min-width: 768px) {
+            .relative.px-4.py-5 > h2.text-white {
+                font-size: 2rem; } }
+/* arrows */
+.slick-slider svg{
+    color: #000;}
+    .slick-slider svg:hover{
+        color: #f996c4;}
+
+/* footer png box */
+body div.max-w-7xl.mx-auto.py-6.px-4 {
+    background-color: #000 !important;
+    max-width: none !important;}
+    div.max-w-7xl.mx-auto.py-6.px-4 img {
+        max-width: none !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;}
+/* eventive footer */
+footer {
+    background: #000;}
+    footer div {
+        color: #ffffff !important;}
+    footer a {
+        font-weight: lighter;
+        color: #fff;}
+
+/* font color and uppercase for sidebar*/
+/* login */
 /* film page*/
 /* spacebar in search */
 /*favicon*/
-/* slide case width ? how does it fcking work.
-
-/* palette infos */
-/*.color-palette-black {
-    --color-palette-gray-900: #ffffff;
-    --color-palette-gray-800: #ffffff;
-    --color-palette-gray-800-transparent: rgba(0, 0, 0, 0);
-    --color-palette-gray-700: #b19994;
-    --color-palette-gray-700-transparent: #25252500;
-    --color-palette-gray-600: #43434f;
-    --color-palette-gray-500: #575757;
-    --color-palette-gray-400: #b19994;
-    --color-palette-gray-300: #000000;
-    --color-palette-gray-200: #ffffff;
-    --color-palette-gray-100: #000000;
-    --color-palette-white: #000000;
-}*/
-/*
-.color-palette-white {
-    --color-palette-gray-900: #eee; / program over color
-    --color-palette-gray-800: #fff; / background
-    --color-palette-gray-800-transparent: hsla(0,0%,100%,0);
-    --color-palette-gray-700: #e8e9ec; / head descr + films descr 
-    --color-palette-gray-700-transparent: rgba(232,233,236,0);
-    --color-palette-gray-600: #969999;
-    --color-palette-gray-500: #76797d;
-    --color-palette-gray-400: #555961; / need help ? and details (rose plus clair) /
-    --color-palette-gray-300: #383838; / search (CHANGE:pink) + back to festival(CHANGE:pink) + page film descr so needs to be black/
-    --color-palette-gray-200: #282a2c; / film descr text + short case titles (CHANGE:pink)/
-    --color-palette-gray-100: #2e353f; / head descr text /
-    --color-palette-white: #252f3f; / film titles (white) + display titles + program text (CHANGE: white)/
-}*/
+/* slide case width ? how does it fcking work. */
