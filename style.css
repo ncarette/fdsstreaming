@@ -42,7 +42,7 @@ html, body {
     line-height: 1.75;}
     @media (min-width: 768px) {
         html, body {
-            cursor: url(cursor.png) 70 40, auto; } }
+            cursor: url(content/cursor.png) 70 40, auto; } }
 
 /* main */
 main > div.max-w-7xl.mx-auto.pb-12.px-4 {
@@ -155,6 +155,15 @@ nav.bg-gray-800 {
                 color: #000; 
                 font-size: 28px;
                 font-family: 'Estrella', sans-serif; }
+        nav.bg-gray-800 div.flex-shrink-0 > span {
+            background: #f996c4;
+            width: 50px;
+            height: 50px;}
+            nav.bg-gray-800 div.flex-shrink-0 > span > span {
+                color: #000; 
+                font-size: 28px;
+                font-family: 'Estrella', sans-serif; }
+
     nav.bg-gray-800 .origin-top-right .rounded-md.bg-always-white {
         background: #000;
         border-radius: 0; }
@@ -339,8 +348,6 @@ footer {
         font-weight: lighter;
         color: #fff;}
 
-/* font color and uppercase for sidebar*/
-/* login */
 /* film page*/
 /* spacebar in search */
 /*favicon*/
