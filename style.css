@@ -351,6 +351,7 @@ footer {
 /*                  film page                  */
 
 /* boite à droite choix films */
+/* background color used case*/
 .scrollbarred .block.shadow.shadow-outline-gray {
     background: yellow;
     padding: 0;
@@ -365,7 +366,7 @@ footer {
 .scrollbarred > a {
     border: 5px solid forestgreen;
     border-radius: 3rem !important;
-    background: #rebeccapurple;
+    background: rebeccapurple;
     font-family: "Estrella", sans-serif !important;
     font-weight: normal  !important;
     font-style: normal;
@@ -376,7 +377,7 @@ footer {
     font-family: "David", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: #hotpink; !important; }
+    color: hotpink; !important; }
 
 
 /* spacebar in search */
