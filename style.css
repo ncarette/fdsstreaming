@@ -351,7 +351,7 @@ footer {
 /*                  film page                  */
 
 /* boite à droite choix films */
-/* color used case ?*/
+/* color used case ?
 .scrollbarred {
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
@@ -359,18 +359,21 @@ footer {
     border-right: 2px solid #000 !important;
     border-bottom: 2px solid #000 !important;}
 .scrollbarred .block.shadow.shadow-outline-gray {
-    display: none; }
-    /*.scrollbarred .block.shadow.shadow-outline-gray .inline-flex.rounded-full.text-red-800.bg-red-100 {
+    background: #000;
+    color: #fff !important;
+    border-radius: 0;
+    border: none; }
+    .scrollbarred .block.shadow.shadow-outline-gray .inline-flex.rounded-full.text-red-800.bg-red-100 {
         background: transparent;
         padding: 0;
         border-radius: 0;
-        color: mediumblue;
-        font-weight: normal;
-        border-bottom: 2px solid orangered; }*/
-/* colors not used cases */
+        font-weight: normal; }*/
+
+
+/* colors not used cases 
 .scrollbarred > a {
     border-top: 2px solid #000;
-    border-radius: 0rem !important;
+    border-radius: 0 !important;
     background: #f996c4;
     color: #000 !important;
     font-family: "David", sans-serif !important;
@@ -378,17 +381,17 @@ footer {
     font-style: normal;
     line-height: 1 !important;
     text-transform: uppercase;
-    /*font-size: 2rem;*/
+    font-size: 2rem;
     box-shadow: none !important;
     margin: 0rem !important;}
     .scrollbarred > a:hover {
         color: #fff !important;
     }
-/*.scrollbarred .text-sm {
+.scrollbarred .text-sm {
     font-family: "David", sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: hotpink; !important; }*/
+    color: #f996c4 !important; }*/
 
 
 /* spacebar in search */
