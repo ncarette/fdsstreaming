@@ -359,10 +359,7 @@ footer {
     border-right: 2px solid #000 !important;
     border-bottom: 2px solid #000 !important;}
 .scrollbarred .block.shadow.shadow-outline-gray {
-    background: #000;
-    color: #fff !important;
-    /*padding: 0;
-    border-radius: 0;*/ }
+    display: none; }
     /*.scrollbarred .block.shadow.shadow-outline-gray .inline-flex.rounded-full.text-red-800.bg-red-100 {
         background: transparent;
         padding: 0;
