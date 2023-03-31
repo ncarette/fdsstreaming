@@ -178,29 +178,35 @@ nav.bg-gray-800 {
 
 /* bouton standard */
 .eventive__button {
-    border: 2px solid #f996c4;
+    border: none;
     border-radius: 0rem !important;
-    font-size: 1rem;
-    padding: 1rem 1rem;
+    font-size: 18px;
     font-weight: normal  !important;
     font-style: normal;
     line-height: 1 !important;
-    text-transform: uppercase !important; }
+    text-transform: uppercase; }
     @media (min-width: 768px) {
             .eventive__button {
-                font-size: 1.2rem; } }
+                font-size: 24px; } }
     .eventive__button:focus {
         box-shadow: none; }
     .eventive__button svg {
         display: none; }
     .eventive__button.bg-indigo-600, .resp-sharing-button__group .resp-sharing-button--copy,
     .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button {
-        background: #000;
-        color: #f996c4; }
+        background: transparent;
+        color: #f996c4; 
+        padding: 15px;}
         .eventive__button.bg-indigo-600:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover,
         .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:hover {
-            background: #f996c4;
-            color: #000; }
+            text-transform: lowercase !important;
+            font-size: 300%;
+            padding: 1px 40px 5px 30px;
+            font-family: 'Estrella', sans-serif; }
+            @media (max-width: 768px) {
+                    .eventive__button.bg-indigo-600:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover,
+                    .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:hover {
+                        font-size: 233%; } }
         .eventive__button.bg-indigo-600:focus, .resp-sharing-button__group .resp-sharing-button--copy:focus,
         .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:focus {
             border-color: #555961; }
@@ -214,11 +220,15 @@ nav.bg-gray-800 {
             background: #fff;
             color: #000;
             border-color: #000;
-            padding: 0.5rem 0.5rem; }
+            padding: 0.5rem 0.5rem;}
     .eventive__button.eventive__button__disabled, .eventive__button.eventive__button__disabled:hover {
         background: #969999;
         color: #e8e9ec;
         border-color: #fff; }
+
+a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
+    display: none !important;
+}
 
 /* header img */
 header {
