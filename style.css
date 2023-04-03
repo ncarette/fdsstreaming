@@ -40,9 +40,14 @@ html, body {
     background-size: 100% auto;*/
     font-family: 'David', sans-serif;
     line-height: 1.75;}
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         html, body {
             cursor: url(content/cursor.png) 70 40, auto; } }
+body {
+    padding-top: 69px;}
+    @media (min-width: 768px) {
+        body {
+            padding-top: 81.78px; } }
 
 /* main */
 main > div.max-w-7xl.mx-auto.pb-12.px-4 {
@@ -63,7 +68,11 @@ nav.bg-gray-800 {
     background: #000000;
     color : #fff;
     border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;}
+    border-bottom: 2px solid #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 18;}
     @media (min-width: 1024px) {
         nav.bg-gray-800 {
             padding: 0.4rem 0rem; } }
