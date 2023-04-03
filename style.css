@@ -397,8 +397,8 @@ footer {
 .scrollbarred > a {
     border-radius: 0 !important;
     padding: 12px;
-    margin-right: 20px;
-    margin-left: 20px;
+    /*margin-right: 20px;
+    margin-left: 20px;*/
 }
 
 /* scrollbar text */
@@ -418,6 +418,45 @@ footer {
 .scrollbarred > a.border-gray-700:hover > div.text-gray-200 {
     color: #f996c4;
 }
+
+/* titre film page*/
+header h2.inline-block.text-gray-400 {
+    display:none;}
+
+header h3 {
+    max-width: 1316px;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding: 16px 16px 36px 36px;*/
+    /*font-family: "Estrella", sans-serif;*/
+    font-size: 40px !important;
+    text-transform: uppercase;
+    padding: 44px 44px 16px 44px;}
+    @media (max-width: 768px) {
+            header h3 {
+            /*padding: 16px 16px 30px 16px;
+            font-size: 70px !important;*/
+            padding: 36px 24px 16px 24px;
+            font-size: 30px !important;} }
+
+main > div > div.sm\:flex.-mx-4 {
+    padding: 0px 16px 0px 16px;
+    max-width: 1316px;
+    margin-left: auto;
+    margin-right: auto;}
+    @media (max-width: 768px) {
+            main > div > div.sm\:flex.-mx-4 {
+            padding: 0px 0px 0px 0px;} }
+
+/* pub */
+main div.mt-12.rounded-lg.overflow-hidden > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+    @media (max-width: 640px) {
+            main div.mt-12.rounded-lg.overflow-hidden {
+                display:none;
+            }}
 
 /* colors not used cases 
 .scrollbarred > a {
