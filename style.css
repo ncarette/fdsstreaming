@@ -290,10 +290,13 @@ h2.group {
 
 /* slick sliders*/
 .slick-slider {
-    margin: 0rem;}
+    margin: 0rem;
+    background-color: #000;
+    }
 
 .slick-list {
-    width: 100% !important;}
+    width: 100% !important;
+    }
 
 /*.slick-track {
     width: 100% !important;}*/
@@ -353,6 +356,7 @@ main div.slick-track img {
 
 /* footer png box */
 body div.max-w-7xl.mx-auto.py-6.px-4 {
+    border-top: 2px solid #fff;
     background-color: #000 !important;
     max-width: none !important;}
     div.max-w-7xl.mx-auto.py-6.px-4 img {
