@@ -40,12 +40,12 @@ html, body {
     background-size: 100% auto;*/
     font-family: 'David', sans-serif;
     line-height: 1.75;}
-    @media (min-width: 1024px) {
+    @media (min-width: 768px) {
         html, body {
             cursor: url(content/cursor.png) 70 40, auto; } }
 body {
     padding-top: 69px;}
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         body {
             padding-top: 81.78px; } }
 
