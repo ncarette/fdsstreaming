@@ -72,7 +72,7 @@ nav.bg-gray-800 {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 18;}
+    z-index: 25;}
     @media (min-width: 1024px) {
         nav.bg-gray-800 {
             padding: 0.4rem 0rem; } }
@@ -161,16 +161,16 @@ nav.bg-gray-800 {
             height: 50px;}
             nav.bg-gray-800 button.max-w-xs.flex.items-center.text-sm.rounded-full > span > span {
                 color: #000; 
-                font-size: 28px;
-                font-family: 'Estrella', sans-serif; }
+                font-size: 20px;
+                /*font-family: 'Estrella';*/ }
         nav.bg-gray-800 div.flex-shrink-0 > span {
             background: #f996c4;
             width: 50px;
             height: 50px;}
             nav.bg-gray-800 div.flex-shrink-0 > span > span {
                 color: #000; 
-                font-size: 28px;
-                font-family: 'Estrella', sans-serif; }
+                font-size: 20px;
+                /*font-family: 'Estrella';*/ }
 
     nav.bg-gray-800 .origin-top-right .rounded-md.bg-always-white {
         background: #000;
@@ -184,59 +184,88 @@ nav.bg-gray-800 {
             nav.bg-gray-800 .origin-top-right .rounded-md.bg-always-white a:hover {
                 color: #f996c4 !important; }
 
-/* bouton standard */
+/* generel status for ALL eventive buttons */
 .eventive__button {
-    border: none;
+    border: 0px solid #f996c4;
     border-radius: 0rem !important;
-    font-size: 18px;
-    font-weight: normal  !important;
-    font-style: normal;
-    line-height: 1 !important;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #f996c4 !important;
+    background: #000;
+    line-height: 1 !important;}
     @media (min-width: 768px) {
             .eventive__button {
-                font-size: 24px; } }
+                font-size: 20px; } }
     .eventive__button:focus {
         box-shadow: none; }
     .eventive__button svg {
         display: none; }
-    .eventive__button.bg-indigo-600, .resp-sharing-button__group .resp-sharing-button--copy,
-    .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button {
-        background: transparent;
-        color: #f996c4; 
-        padding: 15px;}
-        .eventive__button.bg-indigo-600:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover,
-        .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:hover {
-            text-transform: lowercase !important;
-            font-size: 300%;
-            padding: 1px 40px 5px 30px;
-            font-family: 'Estrella', sans-serif; }
-            @media (max-width: 768px) {
-                    .eventive__button.bg-indigo-600:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover,
-                    .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:hover {
-                        font-size: 233%; } }
-        .eventive__button.bg-indigo-600:focus, .resp-sharing-button__group .resp-sharing-button--copy:focus,
-        .resp-sharing-button__group .react-add-to-calendar .resp-sharing-button:focus {
-            border-color: #555961; }
-    /* bouton petit ? def ou*/
-    .eventive__button.bg-reverse, .resp-sharing-button__group .resp-sharing-button--copy, .eventive__button.bg-indigo-400, .eventive__button[type=submit] {
-        background: #000;
-        color: #fff;
-        border-color: #fff;
-        padding: 0.5rem 0.5rem; }
-        .eventive__button.bg-reverse:hover, .resp-sharing-button__group .resp-sharing-button--copy:hover, .eventive__button.bg-indigo-400:hover, .eventive__button[type=submit]:hover {
-            background: #fff;
-            color: #000;
-            border-color: #000;
-            padding: 0.5rem 0.5rem;}
-    .eventive__button.eventive__button__disabled, .eventive__button.eventive__button__disabled:hover {
-        background: #969999;
-        color: #e8e9ec;
-        border-color: #fff; }
+    .eventive__button:hover {
+        color: #000 !important;
+        background: #f996c4;
+        border-color: #000 } 
 
+/* bouton watch now */
+a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
+    background: transparent; 
+    padding: 15px;
+    font-size: 20px;}
+    @media (max-width: 768px) {
+            a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
+                font-size: 18px !important; } }
+    a > div.inline-flex.rounded-md.shadow-sm > .eventive__button:hover {
+        text-transform: lowercase !important;
+        font-size: 266%;
+        padding: 1px 40px 5px 30px;
+        font-family: 'Estrella';
+        color: #f996c4 !important; }
+        @media (max-width: 768px) {
+            a > div.inline-flex.rounded-md.shadow-sm > .eventive__button:hover {
+                font-size: 220% !important; } }
+    a > div.inline-flex.rounded-md.shadow-sm > .eventive__button:focus {
+        border: 2px solid #555961;}
+
+/* bouton learn more */
 a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
-    display: none !important;
+    display: none !important;}
+
+/******** login box ********/
+/* box */
+div[role=dialog] {
+    border: 2px solid #000;
 }
+/* bouton submit */
+.eventive__button[type=submit]{
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000 !important;}
+    .eventive__button[type=submit]:hover{
+        border: 2px solid #000;
+        background-color: #000;
+        color: #f996c4 !important;}
+
+/* premier texte */
+p.leading-snug.text-always-gray-600.text-sm {
+    color: #000 !important;
+    text-transform: uppercase;
+    font-size: 18px;}
+
+/* email form */
+form > div {
+    box-shadow: none !important;}
+form > div > input {
+    border-radius: 0rem !important;}
+
+/* ou */
+div.my-2.text-center.italic.text-always-gray-600 {
+    color: #000 !important;
+    font-style: normal !important;
+    font-size: 18px;}
+
+/* bouton disabled */
+.eventive__button.eventive__button__disabled, .eventive__button.eventive__button__disabled:hover {
+    background: #969999;
+    color: #e8e9ec !important;
+    border-color: #fff; }
 
 /* header img */
 header {
