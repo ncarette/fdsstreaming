@@ -208,6 +208,7 @@ nav.bg-gray-800 {
 a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
     background: transparent; 
     padding: 15px;
+    padding-left: 0px;
     font-size: 20px;}
     @media (max-width: 768px) {
             a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
@@ -215,7 +216,7 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
     a > div.inline-flex.rounded-md.shadow-sm > .eventive__button:hover {
         text-transform: lowercase !important;
         font-size: 266%;
-        padding: 1px 40px 5px 30px;
+        padding: 1px 40px 5px 10px;
         font-family: 'Estrella';
         color: #f996c4 !important; }
         @media (max-width: 768px) {
@@ -366,6 +367,22 @@ main div.slick-track img {
     filter: blur(5px);
     mix-blend-mode: multiply;
     overflow: visible !important;}
+
+/* availability announce */
+.slick-slide span {
+    background-color: #fff;
+    color: #000;
+    top : auto;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-radius: 0;
+    font-size: 18px;
+    height: 30px;
+    display: none;
+}
+
+
 
 /* text inside film display box */
 .relative.px-4.py-5 > h2.text-white {
