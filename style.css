@@ -242,9 +242,11 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
     a > div.inline-flex.rounded-md.shadow-sm > .eventive__button:focus {
         border: 0px solid #555961;}
 
-/* bouton learn more */
-a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
-    display: none !important;}
+/* bouton learn more and watch now*/
+a > div.inline-flex.rounded-md.shadow-sm {
+    display: none;}
+    a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
+        display: inline-block; !important;}
 
 /* take down watch now button */
 @media (min-width: 641px){
