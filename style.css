@@ -225,7 +225,8 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
     background: transparent; 
     padding: 15px;
     padding-left: 0px;
-    font-size: 20px;}
+    font-size: 20px;
+    transition: all 0s;}
     @media (max-width: 768px) {
             a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
                 font-size: 18px !important; } }
@@ -242,13 +243,15 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
         border: 2px solid #555961;}
 
 /* bouton learn more */
-/*a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
-    display: none !important;}*/
+a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
+    display: none !important;}
 
-/* take down all buttons watch now learn more */
-div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > a {
-    display: none;}
+/* take down watch now button */
+@media (min-width: 641px){
+    div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > a {
+        display: none;}}
 
+/* desc of films */
 div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > p.text-gray-200 {
     color: #f996c4;
 }
@@ -547,7 +550,7 @@ header h3 {
             font-size: 30px !important;} }
 
 main > div > div.sm\:flex.-mx-4 {
-    padding: 0px 16px 0px 16px;
+    padding: 0px 20px 0px 20px;
     max-width: 1316px;
     margin-left: auto;
     margin-right: auto;}
@@ -558,7 +561,8 @@ main > div > div.sm\:flex.-mx-4 {
 /* pub */
 main div.mt-12.rounded-lg.overflow-hidden > img {
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    border-radius: 99.99%;}
     @media (max-width: 640px) {
             main div.mt-12.rounded-lg.overflow-hidden {
                 display:none;}}
@@ -566,7 +570,7 @@ main div.mt-12.rounded-lg.overflow-hidden > img {
 /* screen */
 div.relative.flex-1.flex.flex-col.min-h-55vw > img,div {
     border-radius: 0 !important;}
-/* soon text on screen */
+/* coming soon text on screen */
 div.relative.flex-1.flex.flex-col.min-h-55vw > div.z-20.sm\:absolute {
     background-color: #fff !important;
     border: 2px solid #000;
@@ -575,6 +579,20 @@ div.relative.flex-1.flex.flex-col.min-h-55vw > div.z-20.sm\:absolute {
     div.relative.flex-1.flex.flex-col.min-h-55vw > div.z-20.sm\:absolute > span {
         color: #000 !important;
         text-transform: uppercase;}
+
+/* pay what u can etc */
+main div.hidden.sm\:block.mt-6.border-gray-600.px-4 > div > div.mb-5.text-gray-300.text-sm.flex.items-center {
+    display: none;
+}
+
+/* paragraphe descr film */
+div > div.tenant-injected-html.text-gray-300 {
+    font-size: 20px;
+    line-height: 25px;}
+
+/* outer box of text descr */
+div.sm\:w-2\/3.px-4 > div.hidden.sm\:block.mt-6.border-gray-600.px-4 {
+    padding: 0px 2px;}
 
 /********* help page *********/
 input#search {
@@ -586,6 +604,9 @@ input#search {
     border-left: none !important;
     border-right:none !important;
     line-height: 2.5 !important;}
+
+
+
 
 /* colors not used cases 
 .scrollbarred > a {
