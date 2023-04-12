@@ -517,9 +517,6 @@ footer {
     @media (max-width: 900px){
         .scrollbarred > a > div.text-gray-200 {
             font-size: 16px;}}
-            @media (max-width: 640px){
-                .scrollbarred > a > div.text-gray-200 {
-                    line-height: 22px;}}
 
 /* scrollbar selected text */
 .scrollbarred > a.border-gray-600 > div.text-gray-200 {
