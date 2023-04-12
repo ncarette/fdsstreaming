@@ -247,8 +247,12 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
 
 /* take down all buttons watch now learn more */
 div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > a {
-    display: none;
+    display: none;}
+
+div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > p.text-gray-200 {
+    color: #f996c4;
 }
+
 
 /******** login box ********/
 /* box */
@@ -519,7 +523,7 @@ footer {
 }
 
 /* scrollbar literally */
-.scrollbarred\:\:-webkit-scrollbar-thumb {
+.scrollbarred::-webkit-scrollbar-thumb {
     background-color: #f996c4 !important;}
 
 /* titre film page*/
@@ -571,6 +575,7 @@ div.relative.flex-1.flex.flex-col.min-h-55vw > div.z-20.sm\:absolute {
     div.relative.flex-1.flex.flex-col.min-h-55vw > div.z-20.sm\:absolute > span {
         color: #000 !important;
         text-transform: uppercase;}
+
 /* colors not used cases 
 .scrollbarred > a {
     border-top: 2px solid #000;
