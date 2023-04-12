@@ -415,9 +415,13 @@ main div.slick-track img {
     box-shadow: none !important;
     overflow: visible !important;}
 
+@media (max-width: 640px){
+    .slick-slide a > div.w-40:after {
+        content: "<3";}}
+
 .slick-slide a > div.w-40:hover:after {
-    opacity: 1;
-    transition: opacity 1s;}
+        opacity: 1;
+        transition: opacity 1s;}
 
 .slick-slide a > div.w-40 img {
     transition: filter 0.5s, mix-blend-mode 0.5s;}
