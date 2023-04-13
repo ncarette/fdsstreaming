@@ -442,10 +442,7 @@ main div.slick-track img {
     border-radius: 0;
     font-size: 18px;
     height: 30px;
-    display: none;
-}
-
-
+    display: none;}
 
 /* text inside film display box */
 .relative.px-4.py-5 > h2.text-white {
@@ -481,26 +478,16 @@ footer {
         font-weight: lighter;
         color: #fff;}
 
-/*                  film page                  */
+    footer:after {
+        content: "website managed and designed by Noé P. Carette <3";
+        color: #f996c4!important;
+        display: block;
+        width: 100%;
+        text-align: center;
+        /*font-family: "Estrella";*/
+        font-size: 10px;}
 
-/* boite à droite choix films */
-/* color used case ?
-.scrollbarred {
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
-    border-left: 2px solid #000 !important;
-    border-right: 2px solid #000 !important;
-    border-bottom: 2px solid #000 !important;}
-.scrollbarred .block.shadow.shadow-outline-gray {
-    background: #000;
-    color: #fff !important;
-    border-radius: 0;
-    border: none; }
-    .scrollbarred .block.shadow.shadow-outline-gray .inline-flex.rounded-full.text-red-800.bg-red-100 {
-        background: transparent;
-        padding: 0;
-        border-radius: 0;
-        font-weight: normal; }*/
+/*                  film page                  */
 
 /* scrollbar cases */
 .scrollbarred > a {
@@ -620,34 +607,6 @@ input#search {
     border-left: none !important;
     border-right:none !important;
     line-height: 2.5 !important;}
-
-
-
-
-/* colors not used cases 
-.scrollbarred > a {
-    border-top: 2px solid #000;
-    border-radius: 0 !important;
-    background: #f996c4;
-    color: #000 !important;
-    font-family: "David", sans-serif !important;
-    font-weight: normal  !important;
-    font-style: normal;
-    line-height: 1 !important;
-    text-transform: uppercase;
-    font-size: 2rem;
-    box-shadow: none !important;
-    margin: 0rem !important;}
-    .scrollbarred > a:hover {
-        color: #fff !important;
-    }
-.scrollbarred .text-sm {
-    font-family: "David", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    color: #f996c4 !important; }*/
-
-
 
 /* rem to px */
 
