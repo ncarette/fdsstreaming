@@ -583,6 +583,10 @@ div > div.tenant-injected-html.text-gray-300 {
                 font-size: 20px;
                 line-height: 25px;}}
 
+@media (min-width: 900px){
+            div > div.tenant-injected-html.mb-3.text-gray-300 {
+                margin-bottom: 300px;}}
+
 /* sous-paragraphe descr shorts */
 /* quand l'espace est assez grand */
 div > div.tenant-injected-html.mb-2.text-gray-300 {
