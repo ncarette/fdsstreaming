@@ -1,12 +1,4 @@
 
-/*@font-face {
-  font-family: "davidregular";
-  font-weight: normal;
-  src: url('david.otf') format('opentype'),
-       url('david-webfont.woff2') format('woff2'),
-       url('david-webfont.woff') format('woff');
-  font-display: swap; } */
-
 /* Fonts import */
 @font-face {
     font-family: 'David';
@@ -36,8 +28,6 @@
 
 /* general sets */ 
 html, body {
-    /*background: #554FF0 url(images/mobile-bg@2x.png) top left;
-    background-size: 100% auto;*/
     font-family: 'David', sans-serif;
     line-height: 1.75;}
     @media (min-width: 768px) {
