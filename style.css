@@ -583,6 +583,35 @@ div > div.tenant-injected-html.text-gray-300 {
                 font-size: 20px;
                 line-height: 25px;}}
 
+/* sous-paragraphe descr shorts */
+/* quand l'espace est assez grand */
+div > div.tenant-injected-html.mb-2.text-gray-300 {
+            font-size: 14px;
+            line-height: 18px;}
+        /* quand l'espace est assez grand */
+            @media (min-width: 900px){
+                div > div.tenant-injected-html.mb-2.text-gray-300 {
+                    position: absolute;
+                    left: 67.5%;
+                    top: 600px;
+                    font-size: 16px;
+                    padding-right: 3.5%;
+                    line-height: 18px;}}
+            /* quand max.width atteint */
+                    @media (min-width: 1316px){
+                            div > div.tenant-injected-html.mb-2.text-gray-300 {
+                                padding-right: 6%;}}
+                                @media (min-width: 1440px){
+                                    div > div.tenant-injected-html.mb-2.text-gray-300 {
+                                        left: 66%;
+                                        right: 6%;
+                                        width: 470px;}}
+                                        @media (min-width: 1900px){
+                                            div > div.tenant-injected-html.mb-2.text-gray-300 {
+                                                left: 62%;
+                                                right: 6%;
+                                                width: 500px;}}
+
 /* outer box of text descr */
 div.sm\:w-2\/3.px-4 > div.hidden.sm\:block.mt-6.border-gray-600.px-4 {
     padding: 0px 2px;}
