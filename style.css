@@ -453,13 +453,13 @@ main div.slick-track img {
         color: #f996c4;}
     @media (max-width: 639px) {
         .slick-slider svg{
-            height: 2rem;}}
-
+            height: 3rem;}}
+.slick-slider > .cursor-pointer {
+    background: none;}
 /* arrows box for max640px */
-@media (max-width: 639px) {
-    .slick-slider > .cursor-pointer {
-        display: flex;
-        background: none;}}
+    @media (max-width: 639px) {
+        .slick-slider > .cursor-pointer {
+            display: flex;}}
 
 /* footer png box */
 body div.max-w-7xl.mx-auto.py-6.px-4 {
