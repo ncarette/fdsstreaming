@@ -234,11 +234,11 @@ a > div.inline-flex.rounded-md.shadow-sm > .eventive__button {
 
 /* bouton learn more and watch now*/
 a > div.inline-flex.rounded-md.shadow-sm {
-    display: none;}
+    display: inline-block;}
     a > div.inline-flex.rounded-md.shadow-sm.mr-3.sm\:mr-4 {
-        display: inline-block; !important;}
+        display: none; !important;}
 
-/* take down watch now button */
+/* take down the buttons */
 @media (min-width: 641px){
     div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > a {
         display: none;}}
