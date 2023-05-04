@@ -243,11 +243,6 @@ a > div.inline-flex.rounded-md.shadow-sm {
     div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > a {
         display: none;}}
 
-/* desc of films */
-div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > p.text-gray-200 {
-    color: #f996c4;
-}
-
 
 /******** login box ********/
 /* box */
@@ -439,13 +434,19 @@ main div.slick-track img {
 
 /* text inside film display box */
 .relative.px-4.py-5 > h2.text-white {
-    color: #fff !important;
+    color: #f996c4 !important;
     /*font-family: 'Estrella',sans-serif;*/
     font-size: 1.6rem;
     text-transform: uppercase;}
     @media (min-width: 768px) {
             .relative.px-4.py-5 > h2.text-white {
                 font-size: 2rem; } }
+
+/* desc of films */
+div.bg-gray-700 > div.relative.px-4.py-5.sm\:px-6.sm\:py-6.w-full > p.text-gray-200 {
+    color: #fff;
+}
+
 /* arrows */
 .slick-slider svg{
     color: #000;}
@@ -632,7 +633,7 @@ div > div.tenant-injected-html.mb-2.text-gray-300 {
 div.sm\:w-2\/3.px-4 > div.hidden.sm\:block.mt-6.border-gray-600.px-4 {
     padding: 0px 2px;}
 
-/********* help page *********/
+/********* search page *********/
 input#search {
     background-color: #000 !important;
     color: #fff !important;
