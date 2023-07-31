@@ -1,4 +1,3 @@
-
 /* Fonts import */
 @font-face {
     font-family: 'David';
@@ -32,7 +31,7 @@ html, body {
     line-height: 1.75;}
     @media (min-width: 768px) {
         html, body {
-            cursor: url(content/cursor.png) 70 40, auto; } }
+            cursor: url(../content/cursor-resized.png) 70 40, auto; } }
 body {
     padding-top: 67px;}
     @media (min-width: 1024px) {
@@ -643,6 +642,3 @@ input#search {
     border-left: none !important;
     border-right:none !important;
     line-height: 2.5 !important;}
-
-/* rem to px */
-
